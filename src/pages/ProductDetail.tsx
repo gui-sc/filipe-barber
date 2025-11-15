@@ -24,7 +24,7 @@ function ProductDetail() {
     const message = encodeURIComponent(
       `Olá, me interessei pelo produto ${product.name}, gostaria de mais informações.`
     );
-    const whatsappUrl = `https://wa.me/5511999999999?text=${message}`;
+    const whatsappUrl = `https://wa.me/5548996981051?text=${message}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -42,15 +42,13 @@ function ProductDetail() {
         <div className="bg-gray-900 rounded-lg overflow-hidden">
           <div className="grid md:grid-cols-2 gap-8">
             {/* Imagem do produto */}
-            <div className="aspect-square bg-gray-800 flex items-center justify-center">
+            <div className="aspect-square bg-gray-800 flex items-center justify-center overflow-hidden">
               {product.images && product.images.length > 0 ? (
-                <div className="w-full h-full">
-                  <img
-                    src={product.images[0]}
-                    alt={product.name}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+                <img
+                  src={product.images[0]}
+                  alt={product.name}
+                  className="w-full h-full object-cover"
+                />
               ) : (
                 <span className="text-9xl">💈</span>
               )}

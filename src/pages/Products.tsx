@@ -26,8 +26,16 @@ function Products() {
               to={`/produtos/${product.id}`}
               className="bg-gray-900 rounded-lg overflow-hidden hover:bg-gray-800 transition group"
             >
-              <div className="aspect-square bg-gray-800 flex items-center justify-center">
-                <span className="text-6xl">💈</span>
+              <div className="aspect-square bg-gray-800 flex items-center justify-center overflow-hidden">
+                {product.images && product.images.length > 0 ? (
+                  <img
+                    src={product.images[0]}
+                    alt={product.name}
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <span className="text-6xl">💈</span>
+                )}
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2 group-hover:text-gray-300 transition">
