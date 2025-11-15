@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function App() {
   return (
     <div className="min-h-screen bg-black text-white">
@@ -37,15 +39,15 @@ function App() {
               </div>
             </a>
 
-            <a
-              href="#"
+            <Link
+              to="/produtos"
               className="flex items-center justify-between bg-gray-900 hover:bg-gray-800 transition rounded-full px-6 py-4 group"
             >
               <div className="flex items-center gap-3">
                 <span className="text-2xl">💇🏾‍♂️</span>
                 <span className="font-medium">Conheça nossos produtos </span>
               </div>
-            </a>
+            </Link>
 
             <a
               href="https://wa.link/g7g61b" target="_blank" rel="noopener noreferrer"
