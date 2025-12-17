@@ -25,7 +25,7 @@ function App() {
             >
               <div className="flex items-center gap-3">
                 <span className="text-2xl">🧠</span>
-                <span className="font-medium">Ensino você a vender mais serviços extras e produtos na sua barbearia</span>
+                <span className="font-medium">Aprenda a vender mais produtos e serviços extras na sua barbearia</span>
               </div>
             </a>
 
@@ -34,7 +34,7 @@ function App() {
               className="flex items-center justify-between bg-gray-900 hover:bg-gray-800 transition rounded-full px-6 py-4 group"
             >
               <div className="flex items-center gap-3">
-                <span className="text-2xl">💈</span>
+                <span className="text-2xl">💇🏾‍♂️</span>
                 <span className="font-medium">Corte cabelo comigo</span>
               </div>
             </a>
@@ -44,7 +44,7 @@ function App() {
               className="flex items-center justify-between bg-gray-900 hover:bg-gray-800 transition rounded-full px-6 py-4 group"
             >
               <div className="flex items-center gap-3">
-                <span className="text-2xl">💇🏾‍♂️</span>
+                <span className="text-2xl">🛍️</span>
                 <span className="font-medium">Conheça nossos produtos </span>
               </div>
             </Link>
@@ -55,7 +55,7 @@ function App() {
             >
               <div className="flex items-center gap-3">
                 <span className="text-2xl">💻</span>
-                <span className="font-medium">Receba um acompanhamento profissional do seu produto</span>
+                <span className="font-medium">Receba um acompanhamento profissional</span>
               </div>
             </a>
           </div>
