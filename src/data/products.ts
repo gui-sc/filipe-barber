@@ -30,7 +30,7 @@ export const products: Product[] = [
   },
   {
     id: 'pomada',
-    name: 'Pomada matty clín baboon',
+    name: 'Pomada matte clay baboon',
     price: '89,90',
     description: 'Ativo natural que ajuda a reter a hidratação e regular a oleosidade, também possui outros componentes que contribuem para o condicionamento, selagem das cutículas e a diminuição do frizz.',
     images: ['/pomada-baboon.jpeg', '/pomada-baboon1.jpeg']
